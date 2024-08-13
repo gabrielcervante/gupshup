@@ -2,14 +2,15 @@ package gupshup
 
 import (
 	"encoding/json"
-	"github.com/gabrielcervante/gupshup/interfaces"
-	"github.com/gabrielcervante/gupshup/utils"
 	"io"
 	"net/http"
 	"strings"
+
+	"github.com/gabrielcervante/gupshup/interfaces"
+	"github.com/gabrielcervante/gupshup/utils"
 )
 
-const url = "https://api.gupshup.io/sm/api/v1/msg"
+const url = "https://api.gupshup.io/wa/api/v1/msg"
 
 type whatsapp struct {
 	Source  string
